@@ -1,0 +1,170 @@
+skill_id:ID,skill_name,aliases[],:LABEL
+0,salesforce,salesforce,SKILL
+1,salesforce1 platform and lightning components,salesforce1 platform and lightning components,SKILL
+2,mobilesdk,mobilesdk,SKILL
+3,apex,apex,SKILL
+4,lightning connect,lightning connect,SKILL
+5,visualforce,visualforce,SKILL
+6,security,security,SKILL
+7,edi,edi,SKILL
+8,ms stack,ms stack,SKILL
+9,oo,oo,SKILL
+10,testing qa,testing qa,SKILL
+11,architecture,architecture,SKILL
+12,sql,sql,SKILL
+13,experience gathering requirements,experience gathering requirements,SKILL
+14,sql server,sql server,SKILL
+15,spring framework mvc,spring framework mvc,SKILL
+16,azure,azure,SKILL
+17,aws,aws,SKILL
+18,html,html,SKILL
+19,web development,android development;product development;web development,SKILL
+20,javascript,javascript syntax;javascript;javascripts,SKILL
+21,python,python,SKILL
+22,analyst,analysis;analyst,SKILL
+23,tableau,tableau,SKILL
+24,java,java,SKILL
+25,mysql,mysql,SKILL
+26,bigquery,bigquery,SKILL
+27,peoplesoft test manager,peoplesoft test manager,SKILL
+28,testing,ab testing;testng;testing,SKILL
+29,dns,dns,SKILL
+30,administrator,administrator,SKILL
+31,it business analyst,it business analyst,SKILL
+32,it ba,it ba,SKILL
+33,analytics,analytics,SKILL
+34,requirement gathering,requirement gathering,SKILL
+35,sdlc,sdlc,SKILL
+36,documentation,documents;documentation,SKILL
+37,soap,soap,SKILL
+38,itko lisa,itko lisa,SKILL
+39,ksh,ksh,SKILL
+40,ecommerceretail qa,ecommerce;ecommerceretail qa,SKILL
+41,scope,scope,SKILL
+42,sap,sap,SKILL
+43,siebel,siebel,SKILL
+44,retail,retail,SKILL
+45,lan,lan,SKILL
+46,soap ui,soap ui,SKILL
+47,wan,wan,SKILL
+48,websphere application server,websphere application server,SKILL
+49,groovy,groovy,SKILL
+50,selenium,basic selenium;selenium;selenium  java,SKILL
+51,websphere commerce,websphere commerce,SKILL
+52,development,android development;product development;development,SKILL
+53,relational databases,relational databases,SKILL
+54,rest,rest,SKILL
+55,mvs cobol,mvs cobol,SKILL
+56,manager test engineering,manager test engineering,SKILL
+57,a software engineer in test,software engineering;a software engineer in test,SKILL
+58,networking voice,networking voice,SKILL
+59,mq,mq,SKILL
+60,unix,unix,SKILL
+61,j2ee,j2ee,SKILL
+62,bourne shell scripting,bourne shell scripting,SKILL
+63,websphere mq,websphere mq,SKILL
+64,handson,handson,SKILL
+65,peoplesoft,peoplesoft,SKILL
+66,websphere,websphere,SKILL
+67,java development,java development;android development;product development,SKILL
+68,svn,svn,SKILL
+69,ab initio etl,ab initio etl,SKILL
+70,batch,batch,SKILL
+71,lisa,lisa,SKILL
+72,eeo,eeo,SKILL
+73,linux,linux,SKILL
+74,additional informationnuance communication inc.,additional informationnuance communication inc.,SKILL
+75,orchestration,orchestration,SKILL
+76,devops,devops,SKILL
+77,puppet,puppet,SKILL
+78,informationnuance communication inc.,informationnuance communication inc.,SKILL
+79,perl,perl,SKILL
+80,ansible,ansible,SKILL
+81,windows and linux,windows and linux,SKILL
+82,oo perl,oo perl,SKILL
+83,noc,noc,SKILL
+84,human resources department,human resources department;human resources,SKILL
+85,infrastructure,infrastructure,SKILL
+86,sdlc over infrastructure,sdlc over infrastructure,SKILL
+87,saas,saas,SKILL
+88,company overviewat nuance,company overviewat nuance,SKILL
+89,scrum,scrum,SKILL
+90,windows,windows,SKILL
+91,saltstack,saltstack,SKILL
+92,healthcare,healthcare,SKILL
+93,mdm data analyst  lexington,mdm data analyst  lexington,SKILL
+94,pharma,pharma,SKILL
+95,commercial technology team it,commercial technology team it,SKILL
+96,accessexperience,accessexperience,SKILL
+97,excel,excel,SKILL
+98,power point,power point,SKILL
+99,ms excel,ms excel,SKILL
+100,global data management peers,global data management peers,SKILL
+101,it,it,SKILL
+102,mdm data,mdm data,SKILL
+103,microsoft office,microsoft office,SKILL
+104,35 data steward team managementresponsible,35 data steward team managementresponsible,SKILL
+105,management information systems,management information systems,SKILL
+106,global commercial operations,global commercial operations,SKILL
+107,ms office,ms office,SKILL
+108,kelly services,kelly services,SKILL
+109,informatica mdmidd,informatica mdmidd,SKILL
+110,"finance, sciences","finance, sciences",SKILL
+111,finance,finance,SKILL
+112,makelly services,makelly services,SKILL
+113,key skills,key skills,SKILL
+114,bu,bu,SKILL
+115,product data harmonization,product data harmonization,SKILL
+116,competenciesestablishes,competenciesestablishes,SKILL
+117,the field force,the field force,SKILL
+118,u.s. commercial operations,u.s. commercial operations,SKILL
+119,visio,visio,SKILL
+120,sales operations,sales operations,SKILL
+121,the mdmdata governance manager,the mdmdata governance manager,SKILL
+122,mdm data analyst,mdm data analyst,SKILL
+123,"lexington, makelly services","lexington, makelly services",SKILL
+124,mdm uat testing45 operational excellenceresponsible,mdm uat testing45 operational excellenceresponsible,SKILL
+125,commercial technology team,commercial technology team,SKILL
+126,kelly learning center,kelly learning center,SKILL
+127,sales leadership,sales leadership;leadership,SKILL
+128,the bu s,the bu s,SKILL
+129,visiodemonstrates,visiodemonstrates,SKILL
+130,mdm,mdm,SKILL
+131,saba admin and management,saba admin and management,SKILL
+132,working conditionsresponsibilities,working conditionsresponsibilities,SKILL
+133,"waltham, makelly services","waltham, makelly services",SKILL
+134,the issue management tool,the issue management tool,SKILL
+135,lms saba administrator,lms saba administrator,SKILL
+136,regan.brownkellyit.com.. job descriptionunder,regan.brownkellyit.com.. job descriptionunder,SKILL
+137,system administration,system administration,SKILL
+138,"the manager, system administration","the manager, system administration",SKILL
+139,complexity and problem solving responsibilities,complexity and problem solving responsibilities,SKILL
+140,lms,lms,SKILL
+141,regan.brownkellyit.com,regan.brownkellyit.com,SKILL
+142,lms saba administrator  ,lms saba administrator  ,SKILL
+143,js,js,SKILL
+144,abilities handson,abilities handson,SKILL
+145,css3 stylus,css3 stylus,SKILL
+146,datavyu.org,datavyu.org,SKILL
+147,qa,qa,SKILL
+148,pis,pis,SKILL
+149,new york university,new york university,SKILL
+150,pdf resume pdfwe,pdf resume pdfwe,SKILL
+151,job title front end developerposition summarythe,job title front end developerposition summarythe,SKILL
+152,databrary databrary.org,databrary databrary.org,SKILL
+153,tdd testdriven,tdd testdriven,SKILL
+154,angular2,angular2,SKILL
+155,crm,crm,SKILL
+156,ms,ms,SKILL
+157,ui,ui,SKILL
+158,"skills, knowledge and abilities handson","skills, knowledge and abilities handson",SKILL
+159,api,api,SKILL
+160,coffeescript,coffeescript,SKILL
+161,developerposition summarythe databrary,developerposition summarythe databrary,SKILL
+162,ux,ux,SKILL
+163,reactjs,reactjs,SKILL
+164,pdf resume,pdf resume,SKILL
+165,css,css,SKILL
+166,mvcdesign,mvcdesign,SKILL
+167,essential responsibilitiesfunctions research,essential responsibilitiesfunctions research,SKILL
+168,html5,html5,SKILL

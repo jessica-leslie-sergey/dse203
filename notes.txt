@@ -1,0 +1,14 @@
+/Users/sergeygurvich/Library/Application\ Support/Neo4j\ Desktop/Application/relate-data/dbmss/dbms-0da2d454-29a4-4d04-bad5-49a53afbfdd9/bin/neo4j-admin  import --force --multiline-fields=true --nodes=/Users/sergeygurvich/Desktop/project/attempt2/final_neo4j_files/skill__node.csv, /Users/sergeygurvich/Desktop/project/attempt2/final_neo4j_files/listing__node.csv, /Users/sergeygurvich/Desktop/project/attempt2/final_neo4j_files/course__node.csv, /Users/sergeygurvich/Desktop/project/attempt2/final_neo4j_files/location__node.csv, /Users/sergeygurvich/Desktop/project/attempt2/final_neo4j_files/company__node.csv --relationships=/Users/sergeygurvich/Desktop/project/attempt2/final_neo4j_files/located_in__relation.csv, /Users/sergeygurvich/Desktop/project/attempt2/final_neo4j_files/needs__relation.csv, /Users/sergeygurvich/Desktop/project/attempt2/final_neo4j_files/teaches__relation.csv, /Users/sergeygurvich/Desktop/project/attempt2/final_neo4j_files/posted__relation.csv
+
+
+
+MATCH (c:COURSE)-->(s:SKILL)<--(i:LISTING) RETURN *
+
+match (m) return m
+
+
+
+MATCH (c:COURSE)--(s:SKILL)--(l:LISTING)
+WITH c,s,l
+MATCH (co:COMPANY)--(l)--(lo:LOCATION)
+RETURN c,s,l,co,lo

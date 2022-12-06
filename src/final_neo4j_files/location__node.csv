@@ -1,0 +1,14 @@
+location_id:ID,location_name,:LABEL
+203,"Indianapolis, IN",LOCATION
+204,"Bellevue, WA",LOCATION
+205,"Coconut Creek, FL",LOCATION
+206,"Hartford, CT",LOCATION
+207,"New York, NY",LOCATION
+208,"Seattle, WA",LOCATION
+209,"San Francisco, CA",LOCATION
+210,"Woodland Hills, CA",LOCATION
+211,"Mount Laurel, NJ",LOCATION
+212,"Atlanta, GA",LOCATION
+213,"Burlington, MA",LOCATION
+214,"Lexington, MA",LOCATION
+215,"Waltham, MA",LOCATION

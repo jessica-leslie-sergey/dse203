@@ -1,0 +1,5 @@
+pandas
+numpy
+stanza
+spacy
+py_stringmatching
