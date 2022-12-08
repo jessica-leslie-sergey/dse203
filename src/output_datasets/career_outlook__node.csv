@@ -1,4 +1,4 @@
-career_outlook_id:ID,career_outlook
-0,Bright
-1,Average
-2,Below Average
+career_outlook_id:ID,career_outlook,:LABEL
+0,Bright,CAREER_OUTLOOK
+1,Average,CAREER_OUTLOOK
+2,Below Average,CAREER_OUTLOOK
