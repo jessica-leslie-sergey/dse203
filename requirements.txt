@@ -3,3 +3,5 @@ numpy
 stanza
 spacy
 py_stringmatching
+requests
+xmltodict
