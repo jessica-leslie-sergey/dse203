@@ -93,7 +93,7 @@ Note:   we provided small sample datasets for testing and developement.
 
 b. Export to Neo4J (need to run in one line):
 ```
-    <neo4j_path_to_bin_folder>/neo4j-admin  import --force --multiline-fields=true
+    <neo4j_path_to_db_folder>/bin/neo4j-admin  import --force --multiline-fields=true
     --nodes=<path_to_final_neo4j_files_folder>/final_neo4j_files/occupation__node.csv,
     <path_to_final_neo4j_files_folder>/final_neo4j_files/skill__node.csv,
     <path_to_final_neo4j_files_folder>/final_neo4j_files/listing__node.csv,
@@ -108,6 +108,7 @@ b. Export to Neo4J (need to run in one line):
     <path_to_final_neo4j_files_folder>/final_neo4j_files/belongs_to__relation.csv,
     <path_to_final_neo4j_files_folder>/final_neo4j_files/has_future__relation.csv
 ```
+c. It is possible to just download data.zip from neo4j_data_zip folder, unzip it in local <neo4j_path_to_db_folder> and start the DB.
 
 5. Credits
 -----------
