@@ -88,8 +88,8 @@ a. Execute notebooks in their order:
     step6_prepare_neo4j_files.ipynb
 
 Note:   we provided small sample datasets for testing and developement.
-        To use them, step1 and step2 notebooks reading data corresponding lines
-        should be uncommented.
+        To use them, step1 and step2 notebooks 'read data' corresponding lines
+        should be uncommented/changed.
 
 b. Export to Neo4J (need to run in one line):
 ```
