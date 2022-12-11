@@ -40,6 +40,9 @@ To download the code, datasets and project presentations please visit GitHub loc
 ### Repository Contents:
 ```
 /root
+    /neo4j_data_zip
+        data.zip                                - zip file with DB data
+
     /src
         /final_neo4j_files                      - final data for export to neo4j
             <list of .csv files for nodes and relations>
