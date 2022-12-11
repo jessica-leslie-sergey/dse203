@@ -92,7 +92,7 @@ To download the code, datasets and project presentations please visit GitHub loc
         Neo4j Queries.docx
 
 requirements.txt                                - for pip install
-readme.txt                                      - this file
+README.md                                      - this file
 ```
 
 
@@ -134,10 +134,10 @@ C. It is possible to just download data.zip from neo4j_data_zip folder, unzip it
 -----------
 
 The project initiated as part of UCSD's DSE203 final project coursework.
-The scripts were developed by below student maintainers and under the guidance of professor Amarnath Gupta (PhD).
-All creative and distribution rights reserved. Redistribution without express written permission fromt the maintaners is not allowed.
+The scripts were developed by below students and under the guidance of professor Amarnath Gupta (PhD).
+All creative and distribution rights reserved. Redistribution without express written permission from the authors is not allowed.
 
-Current Maintainers:
+Authors and Current Maintainers:
 - Jessica Allen <j4allen@ucsd.edu>
 - Leslie Joe <ljoe@ucsd.edu>
 - Sergey Gurvich <sgurvich@ucsd.edu>
