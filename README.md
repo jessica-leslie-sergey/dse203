@@ -110,7 +110,7 @@ b. Export to Neo4J (need to run in one line):
 ```
 c. It is possible to just download data.zip from neo4j_data_zip folder, unzip it in local <neo4j_path_to_db_folder> and start the DB.
 
-5. Credits
+# 6. Credits
 -----------
 
 The project initiated as part of UCSD's DSE203 final project coursework.
