@@ -16,14 +16,14 @@ The Jobissimo Project: Navigation Through Occupations, Job Listings and Courses.
 
 # 2. Project Description
 --------
-The average person spends 900,000 hours at work over the course of their life-time, so it stands to reason that changing career paths should be taken seriously. The skill set a person has is integral to advancing through the working world, so we set out to connect current occupations to job listings to the Coursera courses that will give you the skills to land your dream job.
+The average person spends 900,000 hours at work over the course of their lifetime, so it stands to reason that changing career paths should be taken seriously. The skill set a person has, is integral to advancing through the working world, so we set out to connect current occupations to job listings to the Coursera courses that will give you the skills to land your dream job.
 
 The knowledge graph created in this project accomplishes several goals:
 * First is to correctly connect job listings to occupations, which allows a potential user to find more information about the job on the listing such as average salary and career outlook.
 * Second is to correctly establish a relationship between what skills are needed for a job listing and what skills are taught through courses on Coursera. Or framed differently, we want to answer which courses would best teach the majority of needed skills for a job listing.
 * And third, we aim to show a holistic view of jobs and skills.
 
-The three datasets we used to create the nodes and relationships that made up this knowledge graph were datasets collected from ONET about occupations within the USA, from Dice.com for their job listings, and from Cousera's courses.
+The three datasets we used to create the nodes and relationships that made up this knowledge graph were datasets collected from ONET about occupations within the USA, from Dice.com for their job listings, and from Coursera's courses.
 
 From the ONET data, collected via API calls, occupations—including their synonyms—and career outlooks were extracted into objects (nodes). Pointers (relationships) were retained between each occupation and ONET's career outlook on each.
 
@@ -35,7 +35,7 @@ Extracting the skills from both the job listing and the courses datasets require
 
 Similarly to the skills matching, so too were occupations and job listing titles matched. Once again, we kept in mind the synonyms (aliases) that occupation names could have, and Jaccard 3-gram similarity was used to match these with job listings. Job listings where there were no matches with a 0.3 score or higher used an API call to find a similar match directly.
 
-Upon saving each node with their corresponding labels (such as "Occupation" and "Skill") and properties, and saving each relationship with their corresponding relationships (such as "Teaches" and "Located In") and properties, they were loaded into Neo4j. Queries that explored the cascading relationships and properties of our graph were executed, such as "Given a set of skills, what jobs are available to a person with said set of skills?" and "What job listings are available for a Software Developer occupation in San Diego?" Using this knowledge graph, a user can ask such questions and recieve answers that genuinly benefit the user.
+Upon saving each node with their corresponding labels (such as "Occupation" and "Skill") and properties, and saving each relationship with their corresponding relationships (such as "Teaches" and "Located In") and properties, they were loaded into Neo4j. Queries that explored the cascading relationships and properties of our graph were executed, such as "Given a set of skills, what jobs are available to a person with said set of skills?" and "What job listings are available for a Software Developer occupation in San Diego?" Using this knowledge graph, a user can ask such questions and receive answers that genuinely benefit the user.
 
 --------
 - ONET Data:
@@ -68,9 +68,9 @@ To download the code, datasets and project presentations please visit GitHub loc
 	    
         /input_datasets
             Coursera.csv                        - original courses data
-            coursera_small.csv                  - small sampled courses data
+            coursera_small.csv                  - small, sampled courses data
             dice_com-job_us_sample.csv          - original job listings data
-            dice_small.csv                      - small sampled job listing data
+            dice_small.csv                      - small, sampled job listing data
             occupations_dataset_downloaded.csv  - downloaded ONET data
 
         /output_datasets                        - output data (before neo4j)
@@ -91,7 +91,7 @@ To download the code, datasets and project presentations please visit GitHub loc
         Neo4j Queries.docx
 
 requirements.txt                                - for pip install
-README.md                                      - this file
+README.md                                       - this file
 ```
 
 
@@ -106,7 +106,7 @@ A. Execute notebooks in their order:
     step5_create_belongs_to_relation.ipynb
     step6_prepare_neo4j_files.ipynb
 
-Note:   we provided small sample datasets for testing and developement.
+Note:   we provided small sample datasets for testing and development.
         To use them, step1 and step2 notebooks 'read data' corresponding lines
         should be uncommented/changed.
 
