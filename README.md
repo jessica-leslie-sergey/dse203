@@ -31,13 +31,12 @@ From the Dice data, four types of objects were extracted: each job listing—inc
 
 From the Coursera data, the courses themselves—including the course name, description, difficulty level, and sign-up URL—as well as the skills each course taught were extracted into objects. Pointers between each course and the skills they taught were retained.
 
-//skills merge desc
+Extracting the skills from both the job listing and the courses datasets required much cleanup. After using Natural Language Processing libraries, the two skills columns were merged into one, so all pointers from the job listings' "Python" skill were also pointed to by the courses' "Python" skill, and so on. Some skills did not match perfectly, so a threshold of 0.6 using Jaccard 3-gram similarity was used. A list of these skill aliases' that passed this threshold were saved.
 
-//"belongs to" desc
+Similarly to the skills matching, so too were occupations and job listing titles matched. Once again, we kept in mind the synonyms (aliases) that occupation names could have, and Jaccard 3-gram similarity was used to match these with job listings. Job listings where there were no matches with a 0.3 score or higher used an API call to find a similar match directly.
 
-//neo4j use desc
+Upon saving each node with their corresponding labels (such as "Occupation" and "Skill") and properties, and saving each relationship with their corresponding relationships (such as "Teaches" and "Located In") and properties, they were loaded into Neo4j. Queries that explored the cascading relationships and properties of our graph were executed, such as "Given a set of skills, what jobs are available to a person with said set of skills?" and "What job listings are available for a Software Developer occupation in San Diego?" Using this knowledge graph, a user can ask such questions and recieve answers that genuinly benefit the user.
 
-# 3. Datasets
 --------
 - ONET Data:
     - https://www.onetonline.org/
