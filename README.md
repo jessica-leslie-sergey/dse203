@@ -37,6 +37,7 @@ Similarly to the skills matching, so too were occupations and job listing titles
 
 Upon saving each node with their corresponding labels (such as "Occupation" and "Skill") and properties, and saving each relationship with their corresponding relationships (such as "Teaches" and "Located In") and properties, they were loaded into Neo4j. Queries that explored the cascading relationships and properties of our graph were executed, such as "Given a set of skills, what jobs are available to a person with said set of skills?" and "What job listings are available for a Software Developer occupation in San Diego?" Using this knowledge graph, a user can ask such questions and receive answers that genuinely benefit the user.
 
+# 3. Datasets
 --------
 - ONET Data:
     - https://www.onetonline.org/
